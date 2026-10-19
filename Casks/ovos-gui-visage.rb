@@ -1,7 +1,7 @@
 cask "ovos-gui-visage" do
-  version "1.0.0"
+  version "1.0.1"
   # The ovos-gui-visage release workflow rewrites version and sha256; all zeros until the first release.
-  sha256 "acfddfed56dcbbcae7fc3c61c22e9ad87c1bcba66f1249e76bcd5d187a8e76a9"
+  sha256 "bc5dc659d8b57f88d8a7ccf8caa8533e027f1202057e69ee24614305aedba4df"
 
   url "https://github.com/OscillateLabsLLC/ovos-gui-visage/releases/download/v#{version}/ovos-gui-visage-#{version}-macos.zip"
   name "OVOS Visage"

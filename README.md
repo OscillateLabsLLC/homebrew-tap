@@ -4,9 +4,16 @@ Homebrew formulae and casks for Oscillate Labs apps.
 
 ```bash
 brew tap oscillatelabsllc/tap
+
+brew trust --cask oscillatelabsllc/tap/ovos-gui-visage
 brew install --cask ovos-gui-visage
+
+brew trust --formula oscillatelabsllc/tap/ovos-mac-control
 brew install ovos-mac-control
 ```
+
+Homebrew won't load anything from a third-party tap until you trust it. Trust only what you install,
+or run `brew trust oscillatelabsllc/tap` to trust the whole tap.
 
 | Cask | App |
 |---|---|

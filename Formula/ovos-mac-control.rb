@@ -1,8 +1,8 @@
 class OvosMacControl < Formula
   desc "On/off control, menubar switch, and upgrade-safe config for OVOS on macOS"
   homepage "https://github.com/OscillateLabsLLC/ovos-mac-control"
-  url "https://github.com/OscillateLabsLLC/ovos-mac-control/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "62681e2897ed9226f42ed941172daa2e335c6d00be44ce15a129648386f18307"
+  url "https://github.com/OscillateLabsLLC/ovos-mac-control/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "552096d7809b221f3e7b4f88312f29b8314c67a81960b898b1605e0bd57eaf83"
   license "Apache-2.0"
 
   depends_on :macos
